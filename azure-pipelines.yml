@@ -1,7 +1,9 @@
 trigger:
  - main
+ 
  pool:
  vmImage: 'ubuntu-latest'
+
  variables:
    imageName: 'pipelines-javascript-docker'
  steps:
